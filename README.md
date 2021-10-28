@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 python apiFuzzTest.py [.] [countNum]
 ```
 ### 实例如下，其中：
-#### 1. '.'代表默认读取input_files_raw目录下的所有文件，也可以指定具体的文件及所在路径
+#### '.'代表默认读取input_files_raw目录下的所有文件，也可以指定具体的文件及所在路径
 #### 2代表fuzz次数：
 ```
 python apiFuzzTest.py . 2
