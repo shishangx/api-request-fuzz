@@ -1,7 +1,7 @@
 
 ## 声明
-# 原工具为IntelliFuzzTest cli ，本次在其上做了改造和更新，以适应新的需求，不过还是采用了python2版本执行
-# 原工具仓库 https://github.com/smasterfree/api-fuzz
+### 原工具为IntelliFuzzTest cli ，本次在其上做了改造和更新，以适应新的需求，不过还是采用了python2版本执行
+### 原工具仓库 https://github.com/smasterfree/api-fuzz
 ## 安装
 
 ```
@@ -16,9 +16,9 @@ python -m pip install -r requirements.txt
 ```
 python apiFuzzTest.py [.] [countNum]
 ```
-# 实例如下，其中：
-# 1. '.'代表默认读取input_files_raw目录下的所有文件，也可以指定具体的文件及所在路径
-# 2代表fuzz次数：
+### 实例如下，其中：
+#### 1. '.'代表默认读取input_files_raw目录下的所有文件，也可以指定具体的文件及所在路径
+#### 2代表fuzz次数：
 ```
 python apiFuzzTest.py . 2
 ```
